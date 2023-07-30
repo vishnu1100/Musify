@@ -1,4 +1,4 @@
-# Music Player Template 
+# Music Player
 
 A simple yet powerful online music streaming service that allows users to listen to their favourite songs 
 
@@ -27,7 +27,7 @@ Check out the live demo [here](https://vishnu1100.github.io/Responsive_Musicplay
 
 1. Clone this repository to your local machine.
 ```bash
-[git clone https://github.com/vishnu1100/musify-app.git](https://github.com/vishnu1100/Responsive_Musicplayer_template.git)
+gh repo clone vishnu1100/Responsive_Musicplayer_template
 ```
 
 2. Open `index.html` in your preferred web browser.
