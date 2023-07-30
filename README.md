@@ -68,7 +68,7 @@ This project is licensed under the [MIT License](LICENSE). You are free to use, 
 
 
 
-## Authors
+## Author
 
 - Vishnu Santhosh  - [@vishnu](https://github.com/vishnu1100)
 
