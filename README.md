@@ -9,7 +9,8 @@ This is a simple and elegant music player developed using HTML, CSS, and JavaScr
 
 ## Demo
 
-Check out the live demo [here](https://vishnu1100.github.io/Responsive_Musicplayer/).
+Check out the live demo [here](https://vishnu1100.github.io/Responsive_Musicplayer_template/).
+
 
 ## Features
 
