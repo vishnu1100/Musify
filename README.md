@@ -40,6 +40,16 @@ gh repo clone vishnu1100/Responsive_Musicplayer_template
 - CSS3: Handles the styling and visual presentation of the player.
 - JavaScript: Implements the interactive features and functionality of the player.
 - [Your Favorite Audio Library]: Handles the audio playback and manipulation.
+
+- 
+
+## Screenshots
+
+![Screenshot 1](/screenshot/1.png)
+![Screenshot 2](/screenshot/2.png)
+
+
+
 ## Font Styles
 
 For this project, we used the following Google Fonts:
