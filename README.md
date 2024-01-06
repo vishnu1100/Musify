@@ -1,4 +1,4 @@
-# Music Player Template
+# Music Player Template With spotify Api integration (eazy)
 
 A simple yet powerful online music streaming service that allows users to listen to their favourite songs 
 
@@ -42,7 +42,7 @@ gh repo clone vishnu1100/Responsive_Musicplayer_template
 - JavaScript: Implements the interactive features and functionality of the player.
 - [Your Favorite Audio Library]: Handles the audio playback and manipulation.
 
-- 
+- Spotify Paid API
 
 ## Screenshots
 
