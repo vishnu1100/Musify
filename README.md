@@ -44,10 +44,6 @@ gh repo clone vishnu1100/Responsive_Musicplayer_template
 
 - Spotify Paid API
 
-## Screenshots
-
-![Screenshot 1](/screenshot/1.png)
-![Screenshot 2](/screenshot/2.png)
 
 
 
@@ -72,6 +68,7 @@ This project is licensed under the [MIT License](LICENSE). You are free to use, 
 ## Author
 
 - Vishnu Santhosh  - [@vishnu](https://github.com/vishnu1100)
+-Vishnu Santhosh  - [@vishnu](https://vishnusanthosh.info)
 
 
 
