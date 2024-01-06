@@ -9,7 +9,7 @@ This is a simple and elegant music player developed using HTML, CSS, and JavaScr
 
 ## Demo
 
-Check out the live demo [here](https://vishnu1100.github.io/Responsive_Musicplayer_template/).
+Check out the live demo [here](https://vishnu1100.github.io/Musify/).
 
 
 ## Features
@@ -28,7 +28,7 @@ Check out the live demo [here](https://vishnu1100.github.io/Responsive_Musicplay
 
 1. Clone this repository to your local machine.
 ```bash
-gh repo clone vishnu1100/Responsive_Musicplayer_template
+gh repo clone vishnu1100/Musify
 ```
 
 2. Open `index.html` in your preferred web browser.
@@ -41,10 +41,18 @@ gh repo clone vishnu1100/Responsive_Musicplayer_template
 - CSS3: Handles the styling and visual presentation of the player.
 - JavaScript: Implements the interactive features and functionality of the player.
 - [Your Favorite Audio Library]: Handles the audio playback and manipulation.
-
 - Spotify Paid API
 
 
+
+
+## Screen Shots
+
+
+![Screenshot 1](screenshot/musify1.png)
+
+
+![Screenshot 2](screenshot/musify.png)
 
 
 ## Font Styles
