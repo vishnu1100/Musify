@@ -1,4 +1,4 @@
-# Music Player Template With spotify Api integration (eazy)
+# Music Player  With spotify Api integration (eazy)
 
 A simple yet powerful online music streaming service that allows users to listen to their favourite songs 
 
