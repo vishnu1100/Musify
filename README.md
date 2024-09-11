@@ -55,6 +55,9 @@ gh repo clone vishnu1100/Musify
 ![Screenshot 2](screenshot/musify.png)
 
 
+![Screenshot 2](screenshot/musify2.png)
+
+
 ## Font Styles
 
 For this project, we used the following Google Fonts:
