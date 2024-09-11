@@ -49,13 +49,13 @@ gh repo clone vishnu1100/Musify
 ## Screen Shots
 
 
-![Screenshot 1](screenshot/musify1.png)
+![Screenshot 1](screenshots/musify1.png)
 
 
-![Screenshot 2](screenshot/musify.png)
+![Screenshot 2](screenshots/musify.png)
 
 
-![Screenshot 2](screenshot/musify2.png)
+![Screenshot 3](screenshots/musify2.png)
 
 
 ## Font Styles
