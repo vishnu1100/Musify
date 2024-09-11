@@ -1,520 +1,72 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" sizes="32x32" type="image/png" href="https://open.spotifycdn.com/cdn/images/favicon32.b64ecc03.png"/>
-    <title> MUSIFY </title>
-
-    <!-- CSS FILES -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;400;700&display=swap" rel="stylesheet">
-
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <link href="css/bootstrap-icons.css" rel="stylesheet">
-
-    <link href="css/templatemo-festava-live.css" rel="stylesheet">
-
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="custom.css">
+    <title>Musikz</title>
 </head>
 
 <body>
-
-    <main>
-
-        <header class="site-header">
-            <div class="container">
-                <div class="row">
-
-                    <div class="col-lg-12 col-12 d-flex flex-wrap">
-                        <p class="d-flex me-4 mb-0">
-                            <i class="bi-person custom-icon me-2"></i>
-                            <strong class="text-dark">Welcome to Musify 2077</strong>
-                        </p>
-                    </div>
-
-                </div>
-            </div>
-        </header>
-
-
-        <nav class="navbar navbar-expand-lg">
-            <div class="container">
-                <a class="navbar-brand" href="">
-                    MUSIFY
-                </a>
-
-                <a href="https://github.com/vishnu1100" target="_blank"  class="btn custom-btn d-lg-none ms-auto me-4">Support </a>
-
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav align-items-lg-center ms-auto me-lg-5">
-                        <li class="nav-item">
-                            <a class="nav-link click-scroll" href="#section_1">Home</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link click-scroll" href="#section_2">Trending</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link click-scroll" href="#section_3">Mix  </a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link click-scroll" href="#section_4">Popular</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link click-scroll" href="#section_5">HipHop </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link click-scroll " href="#section_6">Trap</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link click-scroll " href="#section_7">Phonk</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link click-scroll " href="#section_8">Contact</a>
-                        </li>
-                        
-                        
-
-                        
-                    </ul>
-
-                    <a href="https://github.com/vishnu1100" target="_blank" class="btn custom-btn d-lg-block d-none"> Support </a>
-                </div>
-            </div>
-        </nav>
-
-
-        <section class="hero-section" id="section_1">
-            <div class="section-overlay"></div>
-
-            <div class="container d-flex justify-content-center align-items-center">
-                <div class="row">
-
-                    <div class="col-12 mt-auto mb-5 text-center">
-                        <small>No Money No problem    :)</small>
-                        <small> Press play and sleep !!</small>
-                        <h1 class="text-white mb-5"> AD FREE MUZIK</h1>
-                        
-
-                        
-
-                        <a class="btn custom-btn smoothscroll" href="#section_2">Let's begin</a>
-                    </div>
-
-                    <div class="col-lg-12 col-12 mt-auto d-flex flex-column flex-lg-row text-center">
-                        <div class="date-wrap">
-                           
-                        </div>
-
-                        <div class="location-wrap mx-auto py-3 py-lg-0">
-                            
-                        </div>
-
-                        
-                    </div>
-                </div>
-            </div>
-
-            <div class="video-wrap">
-                <video autoplay="" loop="" muted="" class="custom-video" poster="">
-                    <source src="video/pexels-2022395.mp4" type="video/mp4">
-
-                    Your browser does not support the video tag.
-                </video>
-            </div>
-        </section>
-
-
-        <section class="about-section section-padding" id="section_2">
-            <div class="container">
-                <div class="row">
-
-
-                    <!-- SPOTIFY API START -->
-                  <iframe id="iframe" style="border-radius:12px "  src="https://open.spotify.com/embed/playlist/37i9dQZF1DXbVhgADFy3im?utm_source=generator&theme=0"
-                     width="100%" height="600px"  frameBorder="0" allowfullscreen="" 
-                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-                     loading="lazy"></iframe>
-
-                     <style>
-                        #iframe{
-                            opacity: .7;
-                        }
-                     </style>
-
-
-                             <!-- SPOTIFY API end -->
-                    
-
-                </div>
-            </div>
-        </section>
-
-
-
-       
-
-
-
-
-
-
-
-     <!--   <section class="artists-section section-padding" id="section_3">
-            <div class="container">
-                <div class="row justify-content-center">
-
-                    <div class="col-12 text-center">
-                        <h2 class="mb-4">Meet Artists</h1>
-                    </div>
-
-                    <div class="col-lg-5 col-12">
-                        <div class="artists-thumb">
-                            <div class="artists-image-wrap">
-                                <img src="images/artists/joecalih-UmTZqmMvQcw-unsplash.jpg"
-                                    class="artists-image img-fluid">
-                            </div>
-
-                            <div class="artists-hover">
-                                <p>
-                                    <strong>Name:</strong>
-                                    Madona
-                                </p>
-
-                                <p>
-                                    <strong>Birthdate:</strong>
-                                    August 16, 1958
-                                </p>
-
-                                <p>
-                                    <strong>Music:</strong>
-                                    Pop, R&amp;B
-                                </p>
-
-                                <hr>
-
-                                <p class="mb-0">
-                                    <strong>Youtube Channel:</strong>
-                                    <a href="#">Madona Official</a>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-5 col-12">
-                        <div class="artists-thumb">
-                            <div class="artists-image-wrap">
-                                <img src="images/artists/abstral-official-bdlMO9z5yco-unsplash.jpg"
-                                    class="artists-image img-fluid">
-                            </div>
-
-                            <div class="artists-hover">
-                                <p>
-                                    <strong>Name:</strong>
-                                    Rihana
-                                </p>
-
-                                <p>
-                                    <strong>Birthdate:</strong>
-                                    Feb 20, 1988
-                                </p>
-
-                                <p>
-                                    <strong>Music:</strong>
-                                    Country
-                                </p>
-
-                                <hr>
-
-                                <p class="mb-0">
-                                    <strong>Youtube Channel:</strong>
-                                    <a href="#">Rihana Official</a>
-                                </p>
-                            </div>
-                        </div>
-
-                        <div class="artists-thumb">
-                            <img src="images/artists/soundtrap-rAT6FJ6wltE-unsplash.jpg"
-                                class="artists-image img-fluid">
-
-                            <div class="artists-hover">
-                                <p>
-                                    <strong>Name:</strong>
-                                    Bruno Bros
-                                </p>
-
-                                <p>
-                                    <strong>Birthdate:</strong>
-                                    October 8, 1985
-                                </p>
-
-                                <p>
-                                    <strong>Music:</strong>
-                                    Pop
-                                </p>
-
-                                <hr>
-
-                                <p class="mb-0">
-                                    <strong>Youtube Channel:</strong>
-                                    <a href="#">Bruno Official</a>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </section>-->
-
-
-        <section class="schedule-section section-padding" id="section_3">
-            <div class="container">
-                <div class="row">
-<!-- SPOTIFY API START -->
-                    <iframe  id="iframe" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/37i9dQZF1E39EKgOcNdExP?utm_source=generator&theme=1"
-                     width="100%" height="600px" frameBorder="0" allowfullscreen="" 
-                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-                     loading="lazy"></iframe>
-
-
-                     <!-- SPOTIFY API end  -->
-                </div>
-            </div>
-        </section>
-
-
-        <section class="pricing-section section-padding section-bg" id="section_4" style=  "background-repeat: no-repeat; background-size:  100% 800px;  background-image: url(https://media1.giphy.com/media/3ov9jL6YCEBtw9hF2o/giphy.gif?cid=ecf05e47k4xd5zhm3oy7u90l7c7vpuw879ajp99xr35b1g1j&ep=v1_gifs_search&rid=giphy.gif&ct=g);" >
-            <div class="container">
-                <div class="row">
-                    
-                    <!-- SPOTIFY API START -->
-                    <iframe  id="iframe" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/1Cgey68pUlQGsCPI2wJuxr?utm_source=generator&theme=0"
-                     width="100%" height="600px" frameBorder="0" allowfullscreen="" 
-                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-                     loading="lazy"></iframe>
-
-
-                     <!-- SPOTIFY API end  -->
-                    
-                    </div>
-            </div>
-        </section>
-
-
-        <section class="contact-section section-padding" id="section_5" style=  "background-repeat: no-repeat; background-size:  100% 800px;  background-image: url(https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3BldWUzMW80anRyMzkydzhlcXRrN2JrNHh0MW9nY2hlaHk4bGEyMiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3oEdvddB2lK8i7BzH2/giphy.gif);" >
-            <div class="container">
-                <div class="row"><!-- SPOTIFY API START -->
-                    <iframe  id="iframe" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/5TZkls9cEOzWDR6qCxwDot?utm_source=generator&theme=0"
-                     width="100%" height="600px" frameBorder="0" allowfullscreen="" 
-                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-                     loading="lazy"></iframe>
-
-
-                     <!-- SPOTIFY API end  -->
-                    
-                    
-                    </div>
-            </div>
-        </section>
-
-
-                                  <!-- Section start -->
-
-
-        <section class="contact-section section-padding" id="section_6" style=  "background-repeat: no-repeat; background-size:  100% 800px;  background-image: url(https://media1.giphy.com/media/xT0xepIsg7kK2ZZO0g/giphy.gif?cid=ecf05e47kmzhmiki0gm4jlzufdloc3fuesni769eaptqn9kh&ep=v1_gifs_related&rid=giphy.gif&ct=g);" >
-            <div class="container">
-                <div class="row">
-                    
-                    <!-- SPOTIFY API START -->
-                    <iframe  id="iframe" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/0NCspsyf0OS4BsPgGhkQXM?utm_source=generator&theme=0"
-                     width="100%" height="600px" frameBorder="0" allowfullscreen="" 
-                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-                     loading="lazy"></iframe>
-
-
-                     <!-- SPOTIFY API end  -->
-                    
-                    
-                    </div>
-            </div>
-        </section>
-
-
-                                   <!-- Section End -->
-
-
-                                  <!-- Section start -->
-
-
-                                  <section class="contact-section section-padding" id="section_7" style=  "background-repeat: no-repeat; background-size:  100% 800px;  background-image: url(https://media2.giphy.com/media/26ufmyrjQ4BmKN7xe/giphy.gif?cid=ecf05e47cx2s8j7sddvs4t2xrh2k0aan5hlutfbt5bwoiil4&ep=v1_gifs_search&rid=giphy.gif&ct=g);" >
-                                    <div class="container">
-                                        <div class="row">
-                                            
-                                            <!-- SPOTIFY API START -->
-                                            <iframe  id="iframe" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/37i9dQZF1DWWY64wDtewQt?utm_source=generator&theme=0"
-                                             width="100%" height="600px" frameBorder="0" allowfullscreen="" 
-                                            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-                                             loading="lazy"></iframe>
-                        
-                        
-                                             <!-- SPOTIFY API end  -->
-                                            
-                                            
-                                            </div>
-                                    </div>
-                                </section>
-                        
-                        
-                                                           <!-- Section End -->
-                        
-
-
-
-
-    </main>
-
-
-    <footer class="site-footer" id="">
-        <div class="site-footer-top">
-            <div class="container">
-                <div class="row"> </div>
+    
+    <div class="background">
+        <img src="" id="bg-img" alt="Background Image">
+    </div>
+
+    <div class="container">
+        <div class="player-img">
+            <img src="" class="active" id="cover" alt="Cover Image">
+        </div>
+
+        <h2 id="music-title">Track Title</h2>
+        <h3 id="music-artist">Artist Name</h3>
+
+        <div class="player-progress" id="player-progress">
+            <div class="progress" id="progress"></div>
+            <div class="music-duration">
+                <span id="current-time">0:00</span>
+                <span id="duration">0:00</span>
             </div>
         </div>
 
-        <div class="container">
-            <div class="row">
-
-                <div class="col-lg-6 col-12 mb-4 pb-2">
-                    <h5 class="site-footer-title mb-3">Links</h5>
-
-                    <ul class="site-footer-links">
-                        <li class="site-footer-link-item">
-                            <a href="#section_1" class="site-footer-link">Home</a>
-                        </li>
-
-                        <li class="site-footer-link-item">
-                            <a href="#section_2" class="site-footer-link">Trending</a>
-                        </li>
-
-                        <li class="site-footer-link-item">
-                            <a href="#section_3" class="site-footer-link">Mix</a>
-                        </li>
-
-                        <li class="site-footer-link-item">
-                            <a href="#section_4" class="site-footer-link">Popular</a>
-                        </li>
-
-                        <li class="site-footer-link-item">
-                            <a href="#section_5" class="site-footer-link">HipHop</a>
-                        </li>
-
-                        
-                    </ul>
-                </div>
-
-                <div class="col-lg-3 col-md-6 col-12 mb-4 mb-lg-0">
-                    <h5 class="site-footer-title mb-3">Have a question?</h5>
-
-                    <p class="text-white d-flex mb-1">
-                        <a href="tel: 090-080-0760" class="site-footer-link">
-                            +91 97460 83905
-                        </a>
-                    </p>
-
-                    <p class="text-white d-flex">
-                        <a href="vishnusanthoshvr@gmail.com" class="site-footer-link">
-                            vishnusanthoshvr@gmail.com
-                        </a>
-                    </p>
-                    <p class="text-white d-flex">
-                        <a href="https://vishnusanthosh.info/" target="_blank" class="site-footer-link">
-                           website
-                        </a>
-                    </p>
-                </div>
-
-                <div class="col-lg-3 col-md-6 col-11 mb-4 mb-lg-0 mb-md-0">
-                    <h5 class="site-footer-title mb-3">Location</h5>
-
-                    <p class="text-white d-flex mt-3 mb-2">
-                      <a href="https://wallpaperaccess.com/full/145397.jpg " target="_blank"  > MOON</a>
-                     </p>
-
-                    <a class="link-fx-1 color-contrast-higher mt-3" href="#">
-                        <span>TOP </span>
-                        <svg class="icon" viewBox="0 0 32 32" aria-hidden="true">
-                            <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
-                                <circle cx="16" cy="16" r="15.5"></circle>
-                                <line x1="10" y1="18" x2="16" y2="12"></line>
-                                <line x1="16" y1="12" x2="22" y2="18"></line>
-                            </g>
-                        </svg>
-                    </a>
-                </div>
-            </div>
+        <div class="player-controls">
+            <i class="fa-solid fa-backward" title="Previous" id="prev"></i>
+            <i class="fa-solid fa-play play-button" title="Play" id="play"></i>
+            <i class="fa-solid fa-forward" title="Next" id="next"></i>
         </div>
 
-        <div class="site-footer-bottom" id="section_8"> 
-            <div class="container">
-                <div class="row">
+        <a id="spotifyLink" style="text-decoration: none;" target="_blank">   <button class="button" style="margin-left: 90px;margin-top: 20px;"> 
+            <svg viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000">
+                <g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round">
 
-                    <div class="col-lg-3 col-12 mt-5">
-                        <p class="copyright-text">Copyright © 2077 </p>
-                        <p class="copyright-text">Distributed by: <a href="https://vishnusanthosh.info" target="_blank"> VISHNU </a></p>
-                    </div>
+                </g><g id="SVGRepo_iconCarrier"> <title>Spotify-color</title> <desc>Created with Sketch.</desc> <defs> </defs>
+                     <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"> 
+                        <g id="Color-" transform="translate(-200.000000, -460.000000)" fill="#ffffff">
+                             <path d="M238.16,481.36 C230.48,476.8 217.64,476.32 210.32,478.6 C209.12,478.96 207.92,478.24 207.56,477.16 C207.2,475.96 207.92,474.76 209,474.4 C217.52,471.88 231.56,472.36 240.44,477.64 C241.52,478.24 241.88,479.68 241.28,480.76 C240.68,481.6 239.24,481.96 238.16,481.36 M237.92,488.08 C237.32,488.92 236.24,489.28 235.4,488.68 C228.92,484.72 219.08,483.52 211.52,485.92 C210.56,486.16 209.48,485.68 209.24,484.72 C209,483.76 209.48,482.68 210.44,482.44 C219.2,479.8 230,481.12 237.44,485.68 C238.16,486.04 238.52,487.24 237.92,488.08 M235.04,494.68 C234.56,495.4 233.72,495.64 233,495.16 C227.36,491.68 220.28,490.96 211.88,492.88 C211.04,493.12 210.32,492.52 210.08,491.8 C209.84,490.96 210.44,490.24 211.16,490 C220.28,487.96 228.2,488.8 234.44,492.64 C235.28,493 235.4,493.96 235.04,494.68 M224,460 C210.8,460 200,470.8 200,484 C200,497.2 210.8,508 224,508 C237.2,508 248,497.2 248,484 C248,470.8 237.32,460 224,460" id="Spotify">
+                                 </path> </g> </g> </g></svg>
+          <p >  Full Playlist on Spotify </p>
+            </button>
 
-                    <div class="col-lg-8 col-12 mt-lg-5">
-                        <ul class="site-footer-links">
-                            <li class="site-footer-link-item">
-                                <a href="#" class="site-footer-link">Terms &amp; Conditions</a>
-                            </li>
+    </a>   
 
-                            <li class="site-footer-link-item">
-                                <a href="#" class="site-footer-link">Privacy Policy</a>
-                            </li>
+<a href="https://github.com/vishnu1100/Musify" target="_blank"><button id="btn" style="margin-left: 150px;margin-top: 20px;"> 
+        <span class="icon"><svg viewBox="0 0 24 24" height="33" width="33" xmlns="http://www.w3.org/2000/svg"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path></svg></span>
+        <span class="text1">GITHUB</span>
+        <span class="text2">GITHUB</span>
+        
+      </button></a>
+    </div>
+    
+    
+    <!-- Add the Spotify Web Playback SDK -->
+    <script src="https://sdk.scdn.co/spotify-player.js"></script>
 
-                            <li class="site-footer-link-item">
-                                <a href="#" class="site-footer-link">Your Feedback</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-    <!--
-
-T e m p l a t e M o
-
--->
-
-    <!-- JAVASCRIPT FILES -->
-    <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.sticky.js"></script>
-    <script src="js/click-scroll.js"></script>
-    <script src="js/custom.js"></script>
-
+    <!-- Your custom script -->
+    <script src="index.js"></script>
 </body>
 
 </html>
