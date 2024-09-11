@@ -18,7 +18,7 @@ let songs = [];
 // Your Spotify API credentials
 const clientId = '57e7d63ff50e46058facee08174119c7';  // Replace with your client ID
 const clientSecret = 'c8f8624cc0c245db82a065d2f8182f7c';  // Replace with your client secret
-const playlistId = '0YTNWe9M7I0Sf7fBaYdf6d';  // Extract the playlist ID only
+const playlistId = '5iYeSAR4fs2XXnSzjowQ9l';  // Extract the playlist ID only
 
 
 function setPlaylistLink() {
